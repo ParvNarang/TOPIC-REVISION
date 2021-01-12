@@ -279,7 +279,6 @@ with sr.Microphone() as source:
                             print("Sorry please say it again")
                             playsound.playsound('sorry_please.mp3',True)
                     
-
                     except:
                         print("Sorry ask again")
                         playsound.playsound('sorry_ask.mp3',True)
@@ -326,8 +325,7 @@ with sr.Microphone() as source:
                                 break
                             else:
                                 print("Incorrect")
-                            
-
+                           
                         elif sent[num] == 'what is food web?':
                             time.sleep(5)
                             print("w")
@@ -389,20 +387,16 @@ with sr.Microphone() as source:
                                 continue
                             elif text3 == 'exit':
                                 break
+                                
                             else:
                                 print("Incorrect")
 
-
                         else:
                             print("nothing")
-                            
-
-
+                     
                     except:
                         print("asd")
      
-                    
-
             else:
                 print("Sorry not in the list")
                 playsound.playsound('sorry_list.mp3',True)
